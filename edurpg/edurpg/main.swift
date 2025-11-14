@@ -12,7 +12,7 @@ var defesa:Int=0
 func podeEntrarNaLoja(moedas: Int) -> Bool {
     if moedas <= 0 {
         print("Você não tem moedas suficientes para entrar na loja! Vaza!")
-        return false
+        exit(0)
     }else{
     return true
     }
